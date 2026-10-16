@@ -1,0 +1,31 @@
+# ---- Virtual environment ----
+.venv/
+
+# ---- Python and Jupyter temporary files ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- Private photos (number plates are personal data) ----
+data/my_photos/*
+!data/my_photos/.gitkeep
+
+# ---- Big downloaded datasets ----
+data/datasets/*
+!data/datasets/.gitkeep
+
+# ---- Model weights (big files) ----
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.onnx
+
+# ---- Results saved by the code ----
+outputs/*
+!outputs/.gitkeep
+
+# ---- Editor and Windows files ----
+.vscode/
+Thumbs.db
+desktop.ini
