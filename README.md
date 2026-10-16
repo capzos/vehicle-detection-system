@@ -39,3 +39,5 @@ photos. Private photos, datasets, and model weights are kept out of this reposit
 - [ ] Phase 2: Classic OpenCV plate detection
 - [ ] Phase 3: YOLO plate detector + EasyOCR
 - [ ] Phase 4: Text fixing and testing
+## Working in Google Colab
+Code runs in Google Colab. Datasets, model weights and outputs are kept in Google Drive and are NOT committed to Git.
